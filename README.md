@@ -21,3 +21,8 @@ Notes:
 
 - The combine script requires `Pillow` (`pip install pillow`).
 - `MultimodalActions/utils/` is ignored by Git (see `.gitignore`), so generated or copied utilities there are not pushed.
+
+
+python Guidance/generate_guidance_figure_tex.py \
+  --caption "Usage of guidance " \
+  --label fig:guidance_overview
